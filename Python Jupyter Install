@@ -1,0 +1,94 @@
+Installing Jupyter Notebook: A How-to Guide 📚
+(No Anaconda needed) 
+
+This document will guide you through the process of installing Jupyter Notebook and the necessary software and Python packages without installing Anaconda.
+
+Installing Python:
+
+Go to python.org/downloads/ and download the latest version of the software:
+[Image]
+
+- Open the file that was downloaded:
+[Image]
+
+- Click on 'Install Now':
+[Image]
+
+- On the last installation screen, click on 'Disable path length limit':
+[Image]
+
+Now you have Python installed on your machine! You can confirm that by clicking on the Windows button and checking the 'Recently added' software: 
+[Image]
+
+
+The Command Prompt:
+
+In order to work with Jupyter Notebook, you will have to install some Python packages (Jupyter Notebook is one of them!), and for that we use the 'Command Prompt' (the command line interface for Windows).
+Click on the search field on the taskbar and type 'cmd', then open the 'Command Prompt':
+
+[Image]
+
+On the 'Command Prompt' type: python --version
+(It will confirm that the software is correctly installed and which version you are running -- it may be a different one from the one below as it gets updated frequently, that is ok!)
+
+[Image]
+
+If you can see which Python version you have on your device, please skip the next step (Troubleshooting) and go to Installing Packages.
+
+Troubleshooting:
+In case you receive an error message, like the one below or similar, please follow these steps:
+[Image]
+
+1. Close the 'Command Prompt';
+
+2. Changing the Execution Aliases:
+  - Type 'Manage App Execution Aliases' on the search box from the taskbar and open it:
+[Image]
+  - Switch Python Apps Installers off:
+[Image]
+
+3. Changing Python installation settings:
+  - Open once again the Python installer:
+[Image]
+
+  - Click on 'Modify':
+[Image]
+
+  - Check all the boxes on the first screen:
+[Image]
+
+  - On the next screen, select the 3 boxes, as shown below, and install it:
+[Image]
+
+4. Checking again:
+  - By now, the issue might have been fixed . You can try checking if it is working, by opening the 'Command Prompt' again, type 'python -- version' and press Enter:
+[Image]
+  
+Installing Packages:
+
+Let's start installing the packages by typing (still on 'Command Prompt'):
+  
+  -  pip install numpy
+[Image]
+
+  - pip install pandas
+[Image]
+
+  - pip install openpyxl
+[Image]
+
+  - pip install notebook
+[Image]
+
+Alright, now you have Python and all the necessary packages (to run the scripts provided by the Process Team for your dashboards).
+
+
+Running Jupyter Notebook:
+
+To work with Jupyter Notebook, you will have to open it via 'Command Prompt', just type jupyter notebook (as shown below) and this will launch a new browser window (or a new tab) showing the Notebook Dashboard, a sort of control panel that allows (among other things) to select which notebook to open:
+[Image]
+
+[Image]
+
+Navigate through the folders, and you will be able to open and run the scripts through the browser (file extension is .ipynb).
+[Image]
